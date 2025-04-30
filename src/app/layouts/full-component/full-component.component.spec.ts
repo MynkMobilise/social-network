@@ -1,0 +1,21 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { FullComponentComponent } from './full-component.component';
+
+describe('FullComponentComponent', () => {
+  let component: FullComponentComponent;
+  let fixture: ComponentFixture<FullComponentComponent>;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      declarations: [FullComponentComponent]
+    });
+    fixture = TestBed.createComponent(FullComponentComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
