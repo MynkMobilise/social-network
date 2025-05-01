@@ -7,13 +7,9 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 
 @NgModule({
-  declarations: [
-    HeaderComponent,
-    FooterComponent,
-    SidebarComponent
-  ],
+  declarations: [],
   imports: [
-    CommonModule
+    CommonModule,
   ]
 })
 export class SharedModule { }
